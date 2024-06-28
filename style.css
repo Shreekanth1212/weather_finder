@@ -1,0 +1,80 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: rgb(233, 229, 225);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.weatherform {
+  margin: 20px;
+}
+.cityinput {
+  padding: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+  border: 2px solid hsla(0, 0%, 20%, 0.3);
+  border-radius: 10px;
+  margin: 10px;
+  width: 300px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 2rem;
+  background-color: aqua;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+button[type="submit"]:hover {
+  background-color: orangered;
+  color: white;
+  padding: 10px 20px;
+}
+.card {
+  margin-top: 20px;
+  background: linear-gradient(180deg, rgb(162, 206, 43), rgb(53, 216, 228));
+  padding: 40px;
+  box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.5);
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-size: 3.5rem;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+p {
+  font-size: 1.5rem;
+  margin: 5px 0;
+}
+.citydisplay,
+.tempdisplay {
+  font-size: 3.5rem;
+  margin-bottom: 25px;
+  color: black;
+}
+.humidtydisplay {
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.descdisplay {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.weatherEmoji {
+  margin: 0;
+
+  font-size: 7.5rem;
+}
+.errodisplay {
+  font-weight: bold;
+  font-size: 2rem;
+  color: red;
+}
